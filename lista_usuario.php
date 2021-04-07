@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<link rel="stylesheet" href="css/style.css">
+  <?php include "conexao.php"?>
+
 
 	</head>
 	<body>
@@ -90,7 +92,23 @@
         </div>
         <div class="modal-body">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
+            <?php
+            $sql = "SELECT Email FROM cadastro";
+            $result = $conn->query($sql);
+            
+            if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                    echo "<br> id: ". $row["Email"] . "<br>";
+                }
+            } else {
+                echo "0 results";
+            }
+            
+            $conn->close();
+            
+            ?>
+                <li class="list-group-item"></li>
                 <li class="list-group-item">Dapibus ac facilisis in</li>
                 <li class="list-group-item">Morbi leo risus</li>
                 <li class="list-group-item">Porta ac consectetur ac</li>

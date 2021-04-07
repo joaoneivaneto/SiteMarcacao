@@ -50,7 +50,7 @@
                         </div>
                         <div  class="col-sm-8">
                             <button type="submit" class="btn btn-primary">finalizar</button>
-                            <a class="btn btn-danger" href="index.html" role="button">cancelar</a>
+                            <a class="btn btn-danger" href="index.php" role="button">cancelar</a>
                         </div>
                     </form> 
                   </div>
@@ -71,7 +71,7 @@
                         </div>
                         <div  class="col-sm-10">
                             <button type="submit" class="btn btn-primary">finalizar</button>
-                            <a class="btn btn-danger" href="index.html" role="button">cancelar</a>
+                            <a class="btn btn-danger" href="index.php" role="button">cancelar</a>
                         </div>
                   </div>
                 </div>

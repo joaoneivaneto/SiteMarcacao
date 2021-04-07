@@ -93,8 +93,8 @@
             </div>
           </div>
             
-            <a class="btn btn-primary" href="proximoCadas.html" role="button">proximo</a>
-            <a class="btn btn-danger" href="index.html" role="button">cancelar</a>
+            <a class="btn btn-primary" href="proximoCadas.php" role="button">proximo</a>
+            <a class="btn btn-danger" href="index.php" role="button">cancelar</a>
           </form>
           
 	<script src="js/jquery.min.js"></script>

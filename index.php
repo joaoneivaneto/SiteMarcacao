@@ -40,7 +40,7 @@
 					<div class="form-group">
 		            	<button type="submit" class="form-control btn btn-secondary rounded submit px-3">longar</button>
 		            </div>
-					<p>ainda não se cadastro? <a href="casdatro.html">cadastre-se</a></p>
+					<p>ainda não se cadastro? <a href="casdatro.php">cadastre-se</a></p>
 		          </div> 
 				<div class="half p-4 py-md-5 bg-primary" >
 					
